@@ -24,15 +24,17 @@ export default function UpperHeader() {
 
   return (
     <>
-      <div className='w-full flex flex-row justify-between'>
+      <div className='w-full flex flex-row justify-between bg-[#3D3D3D] text-[#FFFFFF] py-3 px-[100px]'>
 
         {/* Language Selection */}
         <div className='flex flex-row '>
-          <select value={selectedLanguage} onChange={handleChangeLanguage} className=''>
+          <ArrowDown />
+          <select value={selectedLanguage} onChange={handleChangeLanguage} className='appearance-none bg-transparent border-none '>
             {languages.map((language) => (
               <option key={language.code} value={language.code}>
-                <ArrowDown />
+                
                 {language.name}
+                
               </option>
             ))}
           </select>

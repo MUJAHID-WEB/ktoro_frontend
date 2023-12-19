@@ -4,7 +4,7 @@ import UpperHeader from '../Header/UpperHeader'
 
 export default function HomePage() {
   return (
-    <div> 
+    <div className=''> 
         <UpperHeader />
         <LowerHeader />
        
