@@ -5,7 +5,7 @@ import SquareBox from '../svg/SquareBox'
 export default function Navbar() {
   return (
     <>
-    <div className='w-full flex flex-row-reverse gap-8 text-right py-4'>
+    <div className='w-full flex flex-row-reverse gap-8 text-right py-4 bg-[#FFFFFF] px-[100px]'>
         
     <div className='flex flex-row '>
         <ArrowDownBlack/>

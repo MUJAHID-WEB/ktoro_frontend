@@ -29,7 +29,7 @@ export default function UpperHeader() {
         {/* Language Selection */}
         <div className='flex flex-row '>
           <ArrowDown />
-          <select value={selectedLanguage} onChange={handleChangeLanguage} className='appearance-none bg-transparent border-none '>
+          <select value={selectedLanguage} onChange={handleChangeLanguage} className='appearance-none bg-transparent border-none'>
             {languages.map((language) => (
               <option key={language.code} value={language.code}>
                 

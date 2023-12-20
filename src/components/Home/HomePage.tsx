@@ -3,6 +3,7 @@ import LowerHeader from '../Header/LowerHeader'
 import UpperHeader from '../Header/UpperHeader'
 import Navbar from '../Navbar/Navbar'
 import Banner from './Banner'
+import ProductSection from './ProductSection'
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
         <LowerHeader />
         <Navbar />
         <Banner />
+        <ProductSection />
        
 
     </div>
