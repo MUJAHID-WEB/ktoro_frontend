@@ -9,7 +9,9 @@ import Search from '../svg/Search'
 export default function LowerHeader() {
     return (
         <>
-            <div className='w-full flex flex-row justify-between bg-[#333333] text-[#E7E7E7] py-6 px-[100px]'>
+        <section className='bg-[#333333] w-full'>
+
+             <div className='container flex flex-row justify-between items-center bg-[#333333] text-[#E7E7E7] py-6'>
 
                 <div className='flex flex-row items-center'>
 
@@ -45,6 +47,8 @@ export default function LowerHeader() {
                 </div>
 
             </div>
+        </section>
+           
 
 
 

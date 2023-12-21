@@ -3,23 +3,28 @@ import React from 'react'
 export default function Banner() {
   return (
     <>
-    <div className='w-full flex flex-row py-10 px-[100px]'>
-        <div className='flex flex-col mr-6'>
+    <section className='container flex flex-row justify-start items-start pt-10 gap-6'>
+
+     
+
+        <div className='flex flex-col justify-start items-start gap-6 w-[397px] '>
             {/* Ads */}
-            <div className='bg-[#333333] h-[198px] w-[397px] mb-6'>
+            <div className='bg-[#333333] w-full aspect-[397/198]'>
 
             </div>
-            <div className='bg-[#333333] h-[198px] w-[397px]'>
+            <div className='bg-[#333333] w-full aspect-[397/198]'>
 
             </div>
 
         </div>
 
-        <div className='bg-[#333333] h-[420px] w-[819px]'>
+        <div className='bg-[#333333] w-[819px] aspect-[819/420]'>
             {/* Slider */}
 
         </div>
-    </div>
+ 
+    </section>
+   
     </>
     
   )

@@ -24,7 +24,10 @@ export default function UpperHeader() {
 
   return (
     <>
-      <div className='w-full flex flex-row justify-between bg-[#3D3D3D] text-[#FFFFFF] py-3 px-[100px]'>
+
+    <header className='bg-[#3D3D3D] w-full'>
+
+      <div className='container flex flex-row justify-between items-center bg-[#3D3D3D] text-[#FFFFFF] py-3'>
 
         {/* Language Selection */}
         <div className='flex flex-row '>
@@ -57,6 +60,9 @@ export default function UpperHeader() {
 
 
       </div>
+    </header>
+    
+      
     </>
 
   )

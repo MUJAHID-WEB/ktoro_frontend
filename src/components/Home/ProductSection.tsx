@@ -4,15 +4,15 @@ import ProductCard from '../ProductCard/ProductCard'
 export default function ProductSection() {
   return (
     <>
-    <div className='w-full px-[100px]'>
+    <section className='container pt-[60px]'>
         {/* Section Heading */}
-        <div className='flex flex-row-reverse justify-between py-6'>
-            <p className=''>طلب مسبق</p>
+        <div className='flex flex-row-reverse justify-between items-center pb-6'>
+            <h3 className=''>طلب مسبق</h3>
             <button className=''>عرض الكل</button>
         </div>
 
         {/* Product List */}
-        <div className='flex flex-row justify-between gap-4 mr-6'>
+        <div className='flex flex-row justify-start items-start gap-6'>
             <ProductCard />
             <ProductCard />
             <ProductCard />
@@ -21,7 +21,7 @@ export default function ProductSection() {
         </div>
 
 
-    </div>
+    </section>
     
     </>
     
