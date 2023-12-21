@@ -15,4 +15,11 @@
   a{
     @apply no-underline hover:no-underline
   }
+
+}
+
+@layer components{
+  .rtl{
+    direction: rtl;
+  }
 }

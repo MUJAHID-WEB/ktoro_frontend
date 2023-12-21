@@ -6,17 +6,12 @@ export default function ProductCard() {
     return (
         <>
             <Link href=''>
-                <div className='bg-[#FFFFFF] rounded-md p-6 pb-0'>
+                <div className='bg-[#FFFFFF] w-[292px] rounded-md p-6 pb-0'>
 
 
                     <div className=''>
                         {/* product image */}
-                        <div className='aspect-[244/227] rounded-md relative'>
-                            {/* offer */}
-                            <div className='bg-[#F3C078] px-2 py-3 rounded-[50px] text-center absolute z-10 -top-1'>
-                                <p className=''>15% خصم</p>
-
-                            </div>
+                        <div className='aspect-[244/227] rounded-md bg-[#f4f4f4] relative'>
                             <Image
                                 src="/images/product/01.png"
                                 className=''
@@ -24,7 +19,11 @@ export default function ProductCard() {
                                 fill={true}
                             />
 
+                            {/* offer */}
+                            <div className='bg-[#F3C078] px-3 py-2  rounded-[50px] text-center absolute z-10 -top-[14px] -right-3'>
+                                <p className='rtl'>15% خصم</p>
 
+                            </div>
                         </div>
 
                     </div>

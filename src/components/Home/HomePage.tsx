@@ -4,6 +4,7 @@ import UpperHeader from '../Header/UpperHeader'
 import Navbar from '../Navbar/Navbar'
 import Banner from './Banner'
 import ProductSection from './ProductSection'
+import AddsOne from './AddsOne'
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
         <Navbar />
         <Banner />
         <ProductSection />
+        <AddsOne />
        
 
     </div>

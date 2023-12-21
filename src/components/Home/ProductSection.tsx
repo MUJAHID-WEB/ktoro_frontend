@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductCard from '../ProductCard/ProductCard'
+import SliderButton from './SliderButton'
 
 export default function ProductSection() {
   return (
@@ -19,6 +20,12 @@ export default function ProductSection() {
             <ProductCard />
            
         </div>
+
+        <div className='flex flex-row justify-center items-center pt-6'>
+          <SliderButton />
+        </div>
+
+        
 
 
     </section>
