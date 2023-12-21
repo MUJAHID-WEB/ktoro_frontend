@@ -18,6 +18,8 @@ export default function Banner() {
 
         </div>
 
+        
+
         <div className='bg-[#333333] w-[819px] aspect-[819/420]'>
             {/* Slider */}
 

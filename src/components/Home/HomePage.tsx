@@ -13,9 +13,9 @@ export default function HomePage() {
         <LowerHeader />
         <Navbar />
         <Banner />
-        <ProductSection />
+        <ProductSection sectionTitle={'طلب مسبق'} sectionUrl={'/'} />
         <AddsOne />
-       
+       <ProductSection sectionTitle={'وصل حديثا '} sectionUrl={'/'} />
 
     </div>
   )
