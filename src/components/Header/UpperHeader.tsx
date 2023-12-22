@@ -6,8 +6,7 @@ import Calling from '../svg/Calling'
 import ArabicFlag from '../svg/ArabicFlag'
 
 
-
-export default function UpperHeader() {
+export const UpperHeader = () =>  {
 
   const [selectedLanguage, setSelectedLanguage] = useState('ar');
 

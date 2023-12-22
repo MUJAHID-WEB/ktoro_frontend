@@ -1,9 +1,10 @@
 import React from 'react'
-import ProductCard from '../ProductCard/ProductCard'
-import SliderButton from './SliderButton'
+import {ProductCard} from '../ProductCard/ProductCard'
+import {SliderButton} from './SliderButton'
 import Link from 'next/link'
 
-export default function ProductSection({ sectionTitle, sectionUrl }:{sectionTitle:string; sectionUrl:string;}) {
+
+export const ProductSection = ({ sectionTitle, sectionUrl }:{sectionTitle:string; sectionUrl:string;}) => {
 
   
 

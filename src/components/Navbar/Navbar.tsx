@@ -2,7 +2,8 @@ import React from 'react'
 import ArrowDownBlack from '../svg/ArrowDownBlack'
 import SquareBox from '../svg/SquareBox'
 
-export default function Navbar() {
+
+export const Navbar = () => {
   return (
     <>
     <nav className='w-full bg-[#FFFFFF]'>

@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function Banner() {
+
+export const Banner = () =>  {
   return (
     <>
     <section className='container flex flex-row justify-start items-start pt-10 gap-6'>

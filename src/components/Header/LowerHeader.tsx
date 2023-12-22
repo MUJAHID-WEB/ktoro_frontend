@@ -6,7 +6,8 @@ import Cart from '../svg/Cart'
 import User from '../svg/User'
 import Search from '../svg/Search'
 
-export default function LowerHeader() {
+
+export const LowerHeader = () =>  {
     return (
         <>
         <section className='bg-[#333333] w-full'>

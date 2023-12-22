@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-export default function AddsOne() {
+export const AddsOne = () => {
   return (
     <>
       <section className='container flex flex-col justify-start items-start gap-4 pt-[60px]'>

@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function SliderButton() {
+
+export const SliderButton = () => {
   return (
     <>
     <div className='flex flex-row gap-2'>
