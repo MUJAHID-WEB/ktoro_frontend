@@ -10,7 +10,7 @@ import Search from '../svg/Search'
 export const LowerHeader = () =>  {
     return (
         <>
-        <section className='bg-[#333333] w-full'>
+        <section className='bg-[#333333] w-full font-arabic'>
 
              <div className='container flex flex-row justify-between items-center bg-[#333333] text-[#E7E7E7] py-6'>
 
