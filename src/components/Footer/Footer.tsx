@@ -3,16 +3,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { SmsBlack } from '../svg/SmsBlack'
 import { CallingBlack } from '../svg/CallingBlack'
-import { Facebook } from '../svg/facebook'
 import { Twitter } from '../svg/Twitter'
-import { Instagram } from '../svg/instagram'
+import { Facebook } from '../svg/Facebook'
+import { Instagram } from '../svg/Instagram'
 
 export const Footer = () => {
   return (
     <>
       <section className='bg-[#FFFF]  pt-[60px]'>
 
-        <div className='container flex flex-row justify-start items-start gap-[110px]'>
+        <div className='container flex flex-row justify-start items-start gap-[110px] pb-6'>
 
           {/* Column 01 */}
           <div className='flex flex-col items-end justify-end gap-4'>
@@ -56,34 +56,73 @@ export const Footer = () => {
             <Link href='/' className='text-[#494949]'>المنتجات</Link>
             <Link href='/' className='text-[#494949]'>من نحن</Link>
             <Link href='/' className='text-[#494949]'>الشروط والاحكام</Link>
-       
+
 
           </div>
 
           {/* Column 04 */}
           <div className='flex flex-col items-end justify-end gap-4 w-[252px] '>
-          <Image
-                        src="/logo_footer.png"
-                        className='text-[#3333] '
-                        alt="Logo"
-                       
-                        height={60}
-                        width={86}
-                    />
+            <Image
+              src="/logo_footer.png"
+              className='text-[#3333] '
+              alt="Logo"
+
+              height={60}
+              width={86}
+            />
             <p className='text-[#494949]'>نص مثال يمكن ان يستبدل في نفس المساحه نص مثال يمكن ان يستبدل في نفس المساحه نص مثال يمكن ان يستبدل في نفس المساحه</p>
 
             <div className='flex flex-row items-start justify-start gap-2 '>
-              <div className='p-[10px] border border-[#E7E7E7] rounded-full '> <Facebook/> </div>
-              <div className='p-[10px] border border-[#E7E7E7] rounded-full '> <Twitter/> </div>
-              <div className='p-[10px] border border-[#E7E7E7] rounded-full '> <Instagram/> </div>
-
-
-              
-             
+              <Link href={'/'} className='p-[10px] border border-[#E7E7E7] rounded-full '> <Facebook /> </Link>
+              <Link href={'/'} className='p-[10px] border border-[#E7E7E7] rounded-full '> <Twitter /> </Link>
+              <Link href={'/'} className='p-[10px] border border-[#E7E7E7] rounded-full '> <Instagram /> </Link>
 
             </div>
 
           </div>
+
+
+        </div>
+
+        {/* Lower Footer */}
+        <div className='border-t border-[#F4F4F4] pt-6 pb-[60px] flex flex-row justify-between items-center'>
+         <div className='flex flex-row gap-3'>
+         <Image
+              src="/images/paymentway/apple_pay.png"
+              className='text-[#3333] '
+              alt="Logo"
+
+              height={36}
+              width={55}
+            />
+              <Image
+              src="/images/paymentway/master_card.png"
+              className='text-[#3333] '
+              alt="Logo"
+
+              height={36}
+              width={55}
+            />
+              <Image
+              src="/images/paymentway/cs10_mada.png"
+              className='text-[#3333] '
+              alt="Logo"
+
+              height={36}
+              width={55}
+            />
+              <Image
+              src="/images/paymentway/visa.png"
+              className='text-[#3333] '
+              alt="Logo"
+
+              height={36}
+              width={55}
+            />
+         </div>
+         <div>
+          <p>COPYRIHGT@2022-PRESENT KTORO, INC. ALL RIGHT RESERVED</p>
+         </div>
 
 
         </div>
