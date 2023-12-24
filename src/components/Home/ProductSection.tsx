@@ -20,9 +20,9 @@ export const ProductSection = ({ sectionTitle, sectionUrl }:{sectionTitle:string
         {/* Product List */}
         <div className='flex flex-row justify-start items-start gap-6'>
           <ProductCard />
+          {/* <ProductCard />
           <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          <ProductCard /> */}
 
         </div>
 
