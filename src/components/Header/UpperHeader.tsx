@@ -24,12 +24,12 @@ export const UpperHeader = () =>  {
   return (
     <>
 
-    <header className='bg-[#3D3D3D] w-full'>
+    <header className='bg-[#3D3D3D] w-full sm:hidden md:block'>
 
-      <div className='container flex flex-row justify-between items-center bg-[#3D3D3D] text-[#FFFFFF] py-3'>
+      <div className='container flex flex-row justify-between items-center bg-[#3D3D3D] text-[#FFFFFF] py-3 font-normal text-sm'>
 
         {/* Language Selection */}
-        <div className='flex flex-row '>
+        <div className='flex flex-row items-center gap-[6px]'>
           <ArrowDown />
           <select value={selectedLanguage} onChange={handleChangeLanguage} className='appearance-none bg-transparent border-none'>
             {languages.map((language) => (
@@ -46,13 +46,13 @@ export const UpperHeader = () =>  {
         </div>
 
         {/* Support mail */}
-        <div className='flex flex-row '>
+        <div className='flex flex-row items-center gap-[6px]'>
           <p className=''>support@domainstore.com</p>
           <Sms />
         </div>
 
         {/* Phone Number */}
-        <div className='flex flex-row '>
+        <div className='flex flex-row items-center gap-[6px]'>
           <p className=''>+96658574785</p>
           <Calling />
         </div>

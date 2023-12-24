@@ -10,11 +10,11 @@ export const ProductSection = ({ sectionTitle, sectionUrl }:{sectionTitle:string
 
   return (
     <>
-      <section className='container pt-[60px]'>
+      <section className='container md:pt-[60px] sm:pt-6'>
         {/* Section Heading */}
-        <div className='flex flex-row-reverse justify-between items-center pb-6'>
+        <div className='flex flex-row-reverse justify-between items-center pb-6 font-medium md:text-2xl sm:text-lg'>
           <h3 className=''> {sectionTitle}</h3>
-          <Link href={sectionUrl} className=''>عرض الكل</Link>
+          <Link href={sectionUrl} className='text-[#2B8DC5]'>عرض الكل</Link>
         </div>
 
         {/* Product List */}
