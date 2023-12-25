@@ -1,80 +1,43 @@
 import React from 'react'
-import Image from 'next/image'
+import { AdsComponent } from './AdsComponent'
 
 export const AddsFour = () => {
     return (
         <>
-            <section className='container flex flex-col justify-start items-start gap-4 pt-[60px]'>
+         <section className='container flex flex-row justify-start items-start xl:gap-4 lg:gap-[12.5px] md:gap-[9.5px] sm:gap-[4.5px] md:pt-[60px] sm:pt-6'>
 
-                <div className='bg-[#333333] w-[1240px] aspect-[1240/300] flex items-center justify-center relative'>
+<AdsComponent
+    className='w-full aspect-[1240/300]'
+    adsImage='/images/product/01.png'
+    adsAlt='Cosplay Weapons' />
 
-                    <Image
-                        src="/images/product/01.png"
-                        className='text-[#FFFF] '
-                        alt="CD PLAYER"
-                        fill={true}
-                    />
-                </div>
+    {/* 02 ads in a row */}
 
-                <div className='flex flex-row justify-start items-start gap-4 '>
-                    {/* Ads */}
-                    <div className='bg-[#333333]  w-[612px] aspect-[612/300] flex items-center justify-center relative'>
-                        {/* <p className='text-[#FFFF]'>Cosplay Weapons</p> */}
-                        <Image
-                            src="/images/product/01.png"
-                            className='text-[#FFFF] '
-                            alt="Night Light"
-                            fill={true}
-                        />
-                    </div>
+<AdsComponent
+          className='w-[49.35%] aspect-[612/300]'
+          adsImage='/images/product/01.png'
+          adsAlt='Cosplay Weapons' />
 
-                    {/* Ads */}
-                    <div className='bg-[#333333]  w-[612px] aspect-[612/300] flex items-center justify-center relative'>
+        <AdsComponent
+          className='w-[49.35%] aspect-[612/300]'
+          adsImage='/images/product/01.png'
+          adsAlt='Costume' />
 
-                        <Image
-                            src="/images/product/01.png"
-                            className='text-[#FFFF] '
-                            alt="Light Sticks"
-                            fill={true}
-                        />
-                    </div>
+{/* 03 ads in a row */}
+<AdsComponent
+    className='w-[32.46%] aspect-[402/300]'
+    adsImage='/images/product/01.png'
+    adsAlt='Cosplay Weapons' />
 
-                </div>
+<AdsComponent
+    className='w-[32.46%] aspect-[402/300]'
+    adsImage='/images/product/01.png'
+    adsAlt='Cosplay Weapons' />
 
-
-                <div className='flex flex-row justify-start items-start gap-4 '>
-                    {/* Ads */}
-                    <div className='bg-[#333333]  w-[402px] aspect-[402/300] flex items-center justify-center relative'>
-                        {/* <p className='text-[#FFFF]'>Cosplay Weapons</p> */}
-                        <Image
-                            src="/images/product/01.png"
-                            className='text-[#FFFF] '
-                            alt="Night Light"
-                            fill={true}
-                        />
-                    </div>
-                    <div className='bg-[#333333]  w-[402px] aspect-[402/300] flex items-center justify-center relative'>
-
-                        <Image
-                            src="/images/product/01.png"
-                            className='text-[#FFFF] '
-                            alt="Camera"
-                            fill={true}
-                        />
-                    </div>
-                    {/* Ads */}
-                    <div className='bg-[#333333]  w-[402px] aspect-[402/300] flex items-center justify-center relative'>
-
-                        <Image
-                            src="/images/product/01.png"
-                            className='text-[#FFFF] '
-                            alt="Light Sticks"
-                            fill={true}
-                        />
-                    </div>
-
-                </div>
-
+<AdsComponent
+    className='!w-[32.46%] aspect-[402/300]'
+    adsImage='/images/product/01.png'
+    adsAlt='Cosplay Weapons' />
 
 
             </section>

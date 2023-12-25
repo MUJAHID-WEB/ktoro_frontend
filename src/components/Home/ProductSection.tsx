@@ -26,7 +26,7 @@ export const ProductSection = ({ sectionTitle, sectionUrl }:{sectionTitle:string
 
         </div>
 
-        <div className='flex flex-row justify-center items-center pt-6'>
+        <div className='md:flex flex-row justify-center items-center pt-6 sm:hidden '>
           <SliderButton />
         </div>
 

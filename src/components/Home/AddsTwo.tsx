@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { AdsComponent } from './AdsComponent';
 
 export const AddsTwo = ({adsImage, adsAlt}:{adsImage:string; adsAlt:string}) => {

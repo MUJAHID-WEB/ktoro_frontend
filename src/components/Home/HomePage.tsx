@@ -31,7 +31,9 @@ export const HomePage = () =>  {
         <AddsThree />
 
         <ProductSection sectionTitle={'الاكثر مبيعا'} sectionUrl={'/'} />
+        <div></div>
         <ProductSectionTwo />
+
         <AddsFour />
 
         <ProductSection sectionTitle={'الاكثر مبيعا'} sectionUrl={'/'} />

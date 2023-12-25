@@ -1,38 +1,25 @@
 import React from 'react'
-import Image from 'next/image'
+import { AdsComponent } from './AdsComponent'
 
 export const AdsSix = () => {
-  return (
-    <>
-    <section className='container flex flex-col justify-start items-start gap-4 pt-[60px]'>
+    return (
+        <>
+            <section className='container flex flex-row justify-start items-start xl:gap-4 lg:gap-[12.5px] md:gap-[9.5px] sm:gap-[4.5px] md:pt-[60px] sm:pt-6'>
 
-        <div className='flex flex-row justify-start items-start gap-4 '>
-            {/* Ads */}
-            <div className='bg-[#333333]  w-[612px] aspect-[612/300] flex items-center justify-center relative'>
-                {/* <p className='text-[#FFFF]'>Cosplay Weapons</p> */}
-                <Image
-                    src="/images/product/01.png"
-                    className='text-[#FFFF] '
-                    alt="Photo cards"
-                    fill={true}
-                />
-            </div>
+                {/* 02 ads in a row */}
 
-            {/* Ads */}
-            <div className='bg-[#333333]  w-[612px] aspect-[612/300] flex items-center justify-center relative'>
+                <AdsComponent
+                    className='w-[49.35%] aspect-[612/300]'
+                    adsImage='/images/product/01.png'
+                    adsAlt='Cosplay Weapons' />
 
-                <Image
-                    src="/images/product/01.png"
-                    className='text-[#FFFF] '
-                    alt="Stickers"
-                    fill={true}
-                />
-            </div>
+                <AdsComponent
+                    className='!w-[49.35%] aspect-[612/300]'
+                    adsImage='/images/product/01.png'
+                    adsAlt='Costume' />
 
-        </div>
+            </section>
 
-     </section>
-
-</>
-  )
+        </>
+    )
 }
