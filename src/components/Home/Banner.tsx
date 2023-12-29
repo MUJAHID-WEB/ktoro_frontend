@@ -4,11 +4,11 @@ import Image from 'next/image'
 export const Banner = () => {
   return (
     <>
-      <section className='container flex flex-row justify-center items-center xl:pt-10 lg:pt-10 gap-6 sm:invisible lg:visible'>
+      <section className='container flex flex-row justify-center items-center xl:pt-10 lg:pt-10 md:pt-6 xl:gap-6 lg:gap-5 md:gap-4 sm:invisible md:visible'>
 
-        <div className='flex flex-col justify-start items-start gap-6 xl:w-[397px] lg:w-[300px]'>
+        <div className='flex flex-col justify-start items-start xl:gap-6 lg:gap-5 md:gap-4 w-[40%]'>
           {/* Ads */}
-          <div className='bg-[#333333] w-full xl:aspect-[397/198] lg:aspect-[300/150] relative'>
+          <div className='bg-[#333333] w-full aspect-[397/198] relative'>
             <Image
               src="/images/product/01.png"
               className='text-[#FFFF] '
@@ -16,7 +16,7 @@ export const Banner = () => {
               fill={true}
             />
           </div>
-          <div className='bg-[#333333] w-full xl:aspect-[397/198] lg:aspect-[300/150] relative'>
+          <div className='bg-[#333333] w-full aspect-[397/198] relative'>
             <Image
               src="/images/product/01.png"
               className='text-[#FFFF] '
@@ -29,7 +29,7 @@ export const Banner = () => {
 
 
 
-        <div className='bg-[#333333] xl:w-[800px] lg:w-[632px] xl:aspect-[800/420] lg:aspect-[632/325] relative'>
+        <div className='bg-[#333333] w-[60%] aspect-[800/420] relative'>
           {/* Slider */}
           <Image
             src="/images/product/01.png"
@@ -43,9 +43,9 @@ export const Banner = () => {
       </section>
 
       {/* mobile responsive */}
-      <section className='container flex flex-row justify-center items-center md:pt-6 gap-6 lg:hidden md:block'>
+      <section className='container flex flex-row justify-center items-center sm:pt-6 md:hidden sm:block'>
 
-        <div className='bg-[#333333] md:w-[750px] md:aspect-[750/350] sm:w-[396px] sm:aspect-[396/190] relative'>
+        <div className='bg-[#333333] sm:w-[100%] sm:aspect-[396/190] relative'>
           {/* Slider */}
           <Image
             src="/images/product/01.png"
