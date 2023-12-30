@@ -4,9 +4,9 @@ import Image from 'next/image'
 export const Banner = () => {
   return (
     <>
-      <section className='container flex flex-row justify-center items-center xl:pt-10 lg:pt-10 md:pt-6 xl:gap-6 lg:gap-5 md:gap-4 sm:invisible md:visible'>
+      <section className='container flex flex-row justify-center items-center xl:pt-10 lg:pt-10 md:pt-6 xl:gap-6 lg:gap-4 md:gap-3 sm:hidden md:visible'>
 
-        <div className='flex flex-col justify-start items-start xl:gap-6 lg:gap-5 md:gap-4 w-[40%]'>
+        <div className='flex flex-col justify-start items-start xl:gap-6 lg:gap-5 md:gap-4 w-[38%]'>
           {/* Ads */}
           <div className='bg-[#333333] w-full aspect-[397/198] relative'>
             <Image
@@ -29,7 +29,7 @@ export const Banner = () => {
 
 
 
-        <div className='bg-[#333333] w-[60%] aspect-[800/420] relative'>
+        <div className='bg-[#333333] w-[60%] aspect-[800/535] relative'>
           {/* Slider */}
           <Image
             src="/images/product/01.png"
