@@ -22,7 +22,7 @@ export const ItemPage = () => {
                     الرئيسية / الماركات / المكملات الغذائية / الماركات / الماركات
                     </h4>
                     {/* Item Image and Description */}
-                    <div className='flex flex-row justify-start gap-[40px] py-6 px-[40px]'>
+                    <div className='flex flex-row justify-start gap-[40px] py-6 px-[40px] bg-white'>
                         <ItemImage />
                         <ItemDescription />
                     </div>
