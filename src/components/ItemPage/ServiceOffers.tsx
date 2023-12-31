@@ -17,15 +17,14 @@ export const ServiceOffers = () => {
 
       <ServiceOffersCard
         icon={<FreeExchange />}
-        heading='توصيل مجاني'
-        description='توصيل مجاني لجميع الطلبات عند
-      الشراء بقيمة تزيد عن 399 ريال' />
+        heading='استبدال مجاني خلال 14 يوم'
+        description='ضمان استبدال أو استرداد الاموال
+        لجميع الطلبات خلال 14 يوم من الشراء' />
 
       <ServiceOffersCard
         icon={<Payment />}
-        heading='توصيل مجاني'
-        description='توصيل مجاني لجميع الطلبات عند
-      الشراء بقيمة تزيد عن 399 ريال' />
+        heading='الدفع عند الاستلام'
+        description='لضمان راحة الزبائن وكسب ثقتهم' />
 
       <div className='flex flex-col w-[197px]'>
         <Image src='/images/Item/PoweredByGaon.png' width={45} height={64} alt='Powered By' />
