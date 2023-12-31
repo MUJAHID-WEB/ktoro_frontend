@@ -15,15 +15,15 @@ export const ItemImage = () => {
             <div className='flex flex-row gap-3'>
                 <ImageComponent
                     className='w-[70px] h-[70px] '
-                    Src='/images/Item/tshirt.png'
+                    Src='/images/Item/itemVari.png'
                     Alt='' />
                  <ImageComponent
                     className='w-[70px] h-[70px] '
-                    Src='/images/Item/tshirt.png'
+                    Src='/images/Item/itemVari.png'
                     Alt='' />
                      <ImageComponent
                     className='w-[70px] h-[70px] '
-                    Src='/images/Item/tshirt.png'
+                    Src='/images/Item/itemVari.png'
                     Alt='' />
 
             </div>

@@ -17,7 +17,7 @@ export const ItemPage = () => {
                 <LowerHeader />
                 <Navbar />
 
-                <div className='container flex flex-col rtl'>
+                <div className='flex flex-col rtl'>
                     <h4 className=''>
                     الرئيسية / الماركات / المكملات الغذائية / الماركات / الماركات
                     </h4>
