@@ -17,12 +17,12 @@ export const ItemPage = () => {
                 <LowerHeader />
                 <Navbar />
 
-                <div className='flex flex-col rtl'>
-                    <h4 className=''>
+                <div className='flex flex-col px-5 rtl'>
+                    <h4 className='pt-[40px] pb-3 font-normal text-base text-[#242424]'>
                     الرئيسية / الماركات / المكملات الغذائية / الماركات / الماركات
                     </h4>
                     {/* Item Image and Description */}
-                    <div className='flex flex-row justify-start gap-[40px] py-6 px-[40px] bg-white'>
+                    <div className='flex flex-row justify-start gap-[40px] py-6 px-[40px] bg-white rounded-[6px]'>
                         <ItemImage />
                         <ItemDescription />
                     </div>

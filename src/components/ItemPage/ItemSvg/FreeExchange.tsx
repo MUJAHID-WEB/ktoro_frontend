@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FreeExchange = () => {
   return (
-    <svg width="60" height="56" viewBox="0 0 60 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="60" height="60" viewBox="0 0 60 56" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="Asset 2 1">
     <g id="Layer 2">
     <g id="Layer 1">

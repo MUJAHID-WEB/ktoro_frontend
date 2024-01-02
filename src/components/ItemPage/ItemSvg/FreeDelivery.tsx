@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FreeDelivery = () => {
   return (
-    <svg width="60" height="38" viewBox="0 0 60 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="60" height="60" viewBox="0 0 60 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Asset 1 2" clip-path="url(#clip0_1368_27977)">
 <g id="Layer 2">
 <g id="Layer 1">

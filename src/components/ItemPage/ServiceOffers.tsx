@@ -26,10 +26,12 @@ export const ServiceOffers = () => {
         heading='الدفع عند الاستلام'
         description='لضمان راحة الزبائن وكسب ثقتهم' />
 
-      <div className='flex flex-col w-[197px]'>
-        <Image src='/images/Item/PoweredByGaon.png' width={45} height={64} alt='Powered By' />
-        <h3>مدعوم من قبل</h3>
-        <p>جميع البوماتنا تحسب ضمن
+      <div className='flex flex-col justify-center items-center w-[197px]'>
+        
+        <Image src='/images/Item/PoweredByGaon.png' width={50} height={50} alt='Powered By' />
+   
+        <h3 className='font-bold text-xl py-3'>مدعوم من قبل</h3>
+        <p className='font-normal text-base pt-3 text-center'>جميع البوماتنا تحسب ضمن
           مخطط هانتيو وقاون</p>
 
       </div>
@@ -42,10 +44,12 @@ export const ServiceOffers = () => {
 
 export const ServiceOffersCard = ({ icon, heading, description }: { icon: ReactNode; heading: string; description: string; }) => {
   return (
-    <div className='flex flex-col w-[197px]'>
+    <div className='flex flex-col justify-start items-center w-[197px]'>
+      <div className='p-4 border rounded-full border-[F4F4F4] '>
       {icon}
-      <h3>{heading}</h3>
-      <p>{description}</p>
+      </div>
+      <h3 className='font-bold text-xl py-3'>{heading}</h3>
+      <p className='font-normal text-base pt-3 text-center'>{description}</p>
     </div>
   )
 }
