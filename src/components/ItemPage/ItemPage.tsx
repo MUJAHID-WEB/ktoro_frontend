@@ -8,6 +8,7 @@ import { ItemDescription } from './ItemDescription'
 import { ServiceOffers } from './ServiceOffers'
 import { ItemAbout } from './ItemAbout'
 import { ItemRelated } from './ItemRelated'
+import { ItemReviews } from './ItemReviews'
 
 export const ItemPage = () => {
     return (
@@ -37,7 +38,8 @@ export const ItemPage = () => {
                         <div className=''>
 
                         </div>
-                        <ItemAbout />
+                        {/* <ItemAbout /> */}
+                        <ItemReviews />
                     </div>
 
                     {/* Related Products */}
