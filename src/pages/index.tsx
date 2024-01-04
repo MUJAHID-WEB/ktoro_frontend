@@ -15,6 +15,7 @@ const Home = () =>  {
     {/* <ItemPage /> */}
     {/* <CallUs /> */}
     <HelpPage />
+    {/* <SimpleAccordion /> */}
     
    </div>
   )

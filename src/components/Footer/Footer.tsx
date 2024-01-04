@@ -27,9 +27,11 @@ export const Footer = () => {
                   ارسال
                 </button>
 
-                <input type='text' placeholder='البريد الالكتروني' className='text-[#3333] bg-[#F4F4F4] text-right w-[200px] p-[14px] rounded-sm' />
-                <SmsBlack />
+                <div className='bg-[#F4F4F4] flex flex-row items-center p-[14px] rounded-md'>
 
+                  <input type='text' placeholder='البريد الالكتروني' className='text-[#3333] bg-[#F4F4F4] text-right w-[200px]  pr-2' />
+                  <SmsBlack />
+                </div>
               </div>
 
             </div>
@@ -39,12 +41,12 @@ export const Footer = () => {
               <h3 className='text-[#242424] font-bold'>نحن دائما هنا للمساعدة</h3>
               {/* Phone Number */}
               <div className='flex flex-row '>
-                <p className=''>+96658574785</p>
+                <p className='pr-[6px]'>+96658574785</p>
                 <CallingBlack />
               </div>
               {/* Support mail */}
               <div className='flex flex-row '>
-                <p className=''>support@domainstore.com</p>
+                <p className='pr-[6px]'>support@domainstore.com</p>
                 <SmsBlack />
               </div>
             </div>
@@ -75,7 +77,7 @@ export const Footer = () => {
                 height={60}
                 width={86}
               />
-              <p className='text-[#494949]'>نص مثال يمكن ان يستبدل في نفس المساحه نص مثال يمكن ان يستبدل في نفس المساحه نص مثال يمكن ان يستبدل في نفس المساحه</p>
+              <p className='text-[#494949] text-right'>نص مثال يمكن ان يستبدل في نفس المساحه نص مثال يمكن ان يستبدل في نفس المساحه نص مثال يمكن ان يستبدل في نفس المساحه</p>
 
               <div className='flex flex-row items-start justify-start gap-2 '>
                 <Link href={'/'} className='p-[10px] border border-[#E7E7E7] rounded-full '> <Facebook /> </Link>
