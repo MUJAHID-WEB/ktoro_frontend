@@ -1,4 +1,5 @@
 import { BrandCard } from "@/components/Brand/BrandCard"
+import { BrandSection } from "@/components/Brand/BrandSection"
 import { Footer } from "@/components/Footer/Footer"
 import { LowerHeader } from "@/components/Header/LowerHeader"
 import { UpperHeader } from "@/components/Header/UpperHeader"
@@ -15,7 +16,7 @@ const CallUs = () => {
                 <Navbar />
 
                 {/* Brand Section */}
-                <BrandCard image={"/images/brand/applelogo.png"} title={"Apple"} />
+                <BrandSection />
                 
                 <Footer />
             </div>
